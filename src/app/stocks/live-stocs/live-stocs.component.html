@@ -1,0 +1,27 @@
+<h1 [innerText]="title"></h1>
+<br>
+<!-- emmet shortcut====> table.table.table-hover.table-striped>thead>tr>th*3 -->
+
+<table class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>Apple Stock Value</th>
+            <th>Google Stock Value</th>
+            <th>Microsoft Stock Value</th>
+        </tr>
+    </thead>
+<!-- emmet shortcut====>   tbody>tr>td*3>h4[[innerText]] -->
+    <tbody>
+        <tr>
+            <td>
+                <h4 [innerText]="appleStockValue"></h4>
+            </td>
+            <td>
+                <h4 [innerText]="googleStockValue"></h4>
+            </td>
+            <td>
+                <h4 [innerText]="microsoftStockValue"></h4>
+            </td>
+        </tr>
+    </tbody>
+</table>
